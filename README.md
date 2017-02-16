@@ -1,2 +1,5 @@
-# password-generator
-Password generator code in Qt Creator 
+# Password Generator
+
+Little programme code with Qt Creator, which can generate random string for password usage.
+
+= Qt Creator version : 4.8.1
