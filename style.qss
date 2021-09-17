@@ -1,0 +1,14 @@
+QCheckBox{
+    color:white;
+}
+QFrame#frame{
+    background-color:gray;
+}
+QLabel{
+    color: white;
+}
+QLabel#Resultats
+{
+    color:red;
+    background-color:black;
+}

@@ -25,7 +25,7 @@ set(sources
 set(forms
     passwordgenerator.ui)
 set(resources
-    images.qrc)
+    res.qrc)
 
 set(PROJECT_SOURCES
     ${headers}

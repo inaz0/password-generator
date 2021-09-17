@@ -20,6 +20,7 @@ class PasswordGenerator : public QMainWindow {
  private:
   Ui::PasswordGenerator *ui;
 
+  void initStyle();
  private slots:
   void on_CopierMdp_clicked();
   void on_pushButton_clicked();
