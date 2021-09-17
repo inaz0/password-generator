@@ -18,35 +18,36 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(headers 
-        passwordgenerator.h)
+    passwordgenerator.h)
 set(sources
-        passwordgenerator.cpp)
+    main.cpp
+    passwordgenerator.cpp)
 set(forms
-        passwordgenerator.ui)
+    passwordgenerator.ui)
 set(resources
-        images.qrc)
+    images.qrc)
 
 set(PROJECT_SOURCES
-        ${headers}
-        ${sources}
-        ${forms}
-)
+    ${headers}
+    ${sources}
+    ${forms}
+    )
 
 qt5_add_resources(PROJECT_SOURCES ${resources})
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(${PROJECT_NAME}
         ${PROJECT_SOURCES}
-    )
+        )
 else()
     if(ANDROID)
         add_library(${CMAKE_PROJECT_NAME} SHARED
             ${PROJECT_SOURCES}
-        )
+            )
     else()
         add_executable(${CMAKE_PROJECT_NAME}
             ${PROJECT_SOURCES}
-        )
+            )
     endif()
 endif()
 
