@@ -18,21 +18,21 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(headers 
-	*.h)
+        passwordgenerator.h)
 set(sources
-	*.cpp)
+        passwordgenerator.cpp)
 set(forms
-	*.ui)
+        passwordgenerator.ui)
 set(resources
-	*.ui)
+        images.qrc)
 
 set(PROJECT_SOURCES
-	headers
-	sources
-	forms
+        ${headers}
+        ${sources}
+        ${forms}
 )
 
-qt5_add_resources(PROJECT_SOURCES resources)
+qt5_add_resources(PROJECT_SOURCES ${resources})
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(${PROJECT_NAME}
