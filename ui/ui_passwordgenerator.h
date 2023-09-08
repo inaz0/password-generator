@@ -167,7 +167,8 @@ public:
         toolBar->addAction(actionA_propos);
 
         retranslateUi(PasswordGenerator);
-  QSlider::connect(TailleMDP, &QSlider::valueChanged, ValeurTailleMdp, QOverload<int>::of(&QLabel::setNum));
+        QSlider::connect(TailleMDP, &QSlider::valueChanged, ValeurTailleMdp, QOverload<int>::of(&QLabel::setNum));
+
         QMetaObject::connectSlotsByName(PasswordGenerator);
     } // setupUi
 
