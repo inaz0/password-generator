@@ -19,10 +19,10 @@ Release disponible pour Windows uniquement pour le moment
 - L'application est uniquement en FR pour le moment
 
 # Roadmap
-[] Ajouter des caractères spéciaux
-[] Installeur windows
-[] Tester sur windows 10
-[] Binaire pour Linux
+- [ ] Ajouter des caractères spéciaux
+- [ ] Installeur windows
+- [ ] Tester sur windows 10
+- [ ] Binaire pour Linux
 
 # Autres projets
 
