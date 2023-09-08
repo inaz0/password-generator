@@ -6,5 +6,7 @@ TEMPLATE = app
 SOURCES += main.cpp \
     passwordgenerator.cpp
 HEADERS += passwordgenerator.h
-FORMS += passwordgenerator.ui
+FORMS += ui/passwordgenerator.ui
 RESOURCES += images.qrc
+QT += widgets
+UI_DIR += ui

@@ -24,6 +24,8 @@ private slots:
     void on_CopierMdp_clicked();
     void on_pushButton_clicked();
     void on_ActionMenu_triggered();
+    void on_TailleMDP_valueChanged(int value);
+    void on_actionA_propos_triggered(bool checked);
 };
 
 #endif // PASSWORDGENERATOR_H
