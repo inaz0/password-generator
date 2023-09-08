@@ -2,6 +2,6 @@
 
 Little programme code with Qt Creator, which can generate random string for password usage.
 
-= Qt Creator version : 4.8.1
+= Qt Creator version : 6.5.2
 
-Webiste : https://www.kanjian.fr/downloads/password-generator
+Website : https://www.kanjian.fr/downloads/password-generator
