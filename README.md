@@ -20,8 +20,8 @@ Release disponible pour Windows uniquement pour le moment
 
 # Roadmap
 - [ ] Ajouter des caractères spéciaux
-- [ ] Installeur windows
-- [ ] Tester sur windows 10
+- [x] Installeur windows
+- [x] Tester sur windows 10
 - [ ] Binaire pour Linux
 
 # Autres projets
@@ -29,3 +29,7 @@ Release disponible pour Windows uniquement pour le moment
 - mes projets sur GitHub directement
 - ma chaîne Youtube : [https://www.youtube.com/@kanjian_fr/](https://www.youtube.com/@kanjian_fr/)
 - mon blog : [https://www.kanjian.fr](https://www.kanjian.fr)
+
+# Création du setup
+
+- Pour Windows : https://jrsoftware.org/isdl.php#stable
